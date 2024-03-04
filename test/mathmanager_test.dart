@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import './lib/mathmanager.dart';
+import '../lib/mathmanager.dart';
 
 void main() {
   group('Test all methods of mathmanager', () {
