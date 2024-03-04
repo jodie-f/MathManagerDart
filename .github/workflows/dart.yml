@@ -1,0 +1,19 @@
+name: MathManagerDart
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install Flutter
+      uses: subosito/flutter-action@v1
+    - name: Install app dependencies
+      run: flutter pub get
+    - name: Test app
+      run: flutter test 
