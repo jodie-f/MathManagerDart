@@ -1,2 +1,2 @@
 # MathManagerDart
-Hello
+Hello! This is a demo for GitHub Actions. 
