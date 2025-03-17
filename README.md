@@ -1,2 +1,2 @@
 # MathManagerDart
-Hello! This is a demo for GitHub Actions. 
+Continuous integration with Dart.
